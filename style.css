@@ -126,13 +126,15 @@ img {
 .hero {
     min-height: 650px;
 
-    background:
+    background-image:
         linear-gradient(
-            rgba(15, 40, 70, 0.76),
-            rgba(15, 40, 70, 0.76)
+            rgba(15, 40, 70, 0.55),
+            rgba(15, 40, 70, 0.55)
         ),
-        url(hero.jpg")
-        center / cover no-repeat;
+        url("./hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     position: relative;
 
