@@ -131,7 +131,7 @@ img {
             rgba(15, 40, 70, 0.76),
             rgba(15, 40, 70, 0.76)
         ),
-        url("images/hero.jpg")
+        url(hero.jpg")
         center / cover no-repeat;
 
     position: relative;
